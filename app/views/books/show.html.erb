@@ -1,4 +1,4 @@
-
+<%= flash[:notice] %>
 <div class="row">
   <div class="col-md-3">
      <h2>User info</h2>
@@ -35,9 +35,7 @@
       <br><label for="book_opinion">Opinion</label></br>
       <%= f.text_area :body %>
     </div>
-    <div class="form-group">
       <%= f.submit 'Create Book' %>
-    </div>
     <% end %>
 
   </div>
